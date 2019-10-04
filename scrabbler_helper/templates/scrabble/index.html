@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <title>Suggest Word</title>
+    <body>
+        <h1>Suggest word</h1>
+    </body>
+
+    Available Characters: <input type="text" id="characters" name="chars_box" value="">
+    <br>
+    <button id="submit">Submit</button>
+    <br>
+    Suggested Word: <div id="suggested_word">Placeholder 1</div>
+    <br>
+    Points yield: <div id="points">Placeholder 2</div>
+    
+    {% load static %}
+    <script src="{% static "scrabble/index.js" %}"></script>
+</html> 
